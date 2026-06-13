@@ -12,10 +12,15 @@ Virtioz is a next-generation decentralized platform designed to orchestrate and 
 ## 🖥 Interface
 
 ### Electron Desktop Application
-![Electron Desktop App](assets/desktop.png)
+![Electron Desktop App](assets/app.png)
 
 ### Chrome Web Application
 ![Chrome Web App](assets/web.png)
+
+### Command Execution Demonstrations
+![Test Command 1](assets/test%201.png)
+![Test Command 2](assets/test%202.png)
+![Test Command 3](assets/test%203.png)
 
 ## 🏗 Architecture
 The platform is built with a dual-stack architecture to maximize performance and cross-platform compatibility:
