@@ -1,0 +1,13 @@
+{
+  "name": "virtioz-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "virtioz": "node start.js",
+    "virtioz:dev": "node start.js --dev",
+    "virtioz:stop": "node stop.js"
+  },
+  "dependencies": {
+    "ws": "^8.21.0"
+  }
+}

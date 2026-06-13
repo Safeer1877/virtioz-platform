@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+target/
+dist/
+build/
+*.exe
+*.dll
+
+# Environment variables (SECURITY RISK)
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+
+# Caches
+hf_cache/
+.eslintcache
+.parcel-cache
+
+# OS generated files
+.DS_Store
+Thumbs.db

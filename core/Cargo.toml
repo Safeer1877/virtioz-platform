@@ -1,0 +1,30 @@
+[package]
+name = "virtioz-core"
+version = "0.1.0"
+edition = "2021"
+description = "Virtioz Core Daemon — shim between local app and remote executor"
+
+[[bin]]
+name = "virtioz-router"
+path = "src/router.rs"
+
+[[bin]]
+name = "virtioz-signaling"
+path = "src/signaling.rs"
+
+[[bin]]
+name = "virtioz-agent"
+path = "src/agent.rs"
+
+[[bin]]
+name = "test_ps"
+path = "src/bin/test_ps.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full", "process"] }
+tokio-tungstenite = { version = "0.26", features = ["connect", "native-tls"] }
+futures-util = "0.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+uuid = { version = "1", features = ["v4"] }
+webrtc = "0.11.0"
